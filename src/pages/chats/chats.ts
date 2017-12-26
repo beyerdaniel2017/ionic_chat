@@ -22,6 +22,7 @@ export class ChatsPage {
                 this.chats = chats.map(users => {
                     return users.map(user => {
                         user.info = this.af.database.object(`/users/${user.$key}`);
+                        console.log(" user infor ",user );
                         return user;
                     });
                 });
@@ -32,6 +33,7 @@ export class ChatsPage {
     openChat(key) {
         this.userProvider.getUid()
         .then(uid => {
+            console.log("uid ", uid);
             let param = {uid: uid, interlocutor: key};
             this.nav.push(ChatViewPage,param);
         });   

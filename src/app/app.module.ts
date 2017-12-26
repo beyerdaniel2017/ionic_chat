@@ -16,12 +16,12 @@ import { UserProvider } from '../providers/user-provider/user-provider';
 import { UtilProvider } from '../providers/utils';
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyDt_BaO5QxQo3mr8XaigDsoVnPtPn05ejg",
-  authDomain: "angular2firebase-e2368.firebaseapp.com",
-  databaseURL: "https://angular2firebase-e2368.firebaseio.com",
-  projectId: "angular2firebase-e2368",
-  storageBucket: "angular2firebase-e2368.appspot.com",
-  messagingSenderId: "678978519421"
+    apiKey:"AIzaSyDfySkoXoUcI9Ed39TNJwXnntSg8nKyt10",
+    authDomain: "rental-335fb.firebaseapp.com",
+    databaseURL: "https://rental-335fb.firebaseio.com",
+    projectId: "rental-335fb",
+    storageBucket: "rental-335fb.appspot.com",
+    messagingSenderId: "637150074544"
 };
 
 const myFirebaseAuthConfig = {

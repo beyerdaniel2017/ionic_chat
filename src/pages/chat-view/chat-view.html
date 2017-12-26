@@ -21,6 +21,7 @@
     <ion-row>
       <ion-col width-10>
           <ion-spinner *ngIf="!(chats)"></ion-spinner>
+          {{chats}}
       </ion-col>
       
       <ion-col width-70 [hidden]="!chats">

@@ -10,7 +10,7 @@
 <ion-content>
      <a ion-item *ngFor="let chat of chats | async" (click)="openChat(chat.$key)">
         <ion-avatar item-left>
-                <img *ngIf="!(chat.info | async).picture" src="assets/images/default.jpg">
+                <img src="assets/images/default.jpg">
                 <img *ngIf="(chat.info | async).picture" src="{{(chat.info | async).picture}}">
         </ion-avatar>
         <span>{{(chat.info | async).email}}</span>
